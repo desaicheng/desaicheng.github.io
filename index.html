@@ -12,6 +12,30 @@
   </style>
 </head>
 <body>
-<p class="p1"><span class="s1">Hello World<span class="Apple-converted-space"> </span></span></p>
+  <div class="background-images"></div>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars-intl@latest/dist/handlebars-intl.min.js"></script>
+  <script>
+    HandlebarsIntl.registerWith(Handlebars);
+    var topPictures = JSON.parse(`
+      [
+        {
+          "imagePath":"images/mexican1.jpg"
+        },
+        {
+          "imagePath":"images/italian1.jpg"
+        },
+        {
+          "imagePath":"images/korean1.jpg"
+        },
+      ]
+    `)
+    
+    const backgroundPhoto = `<img src={imagePath}>`;
+    const renderBackgroundPhoto = Handlebars.compile(backgroundPhoto);
+    for (const pic of topPictures){
+      document.getElementById("background-images").innerHTML += renderBackgroundPhoto(pic);
+    };
+  </script>
 </body>
 </html>
