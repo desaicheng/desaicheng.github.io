@@ -1,0 +1,24 @@
+{
+    "restaurants": [
+        {
+            "name": "Truly Sichuan",
+            "hours": "ToDo",
+            "address": "31 Chestnut St, Ridgewood, NJ",
+            "longitude": "-74.118880",
+            "latitude": "40.980420",
+            "image": "restaurantImages/TrulySichuan.jpg",
+            "ethnicity": "Chinese",
+            "website": "https://www.trulysichuan.com"
+        },
+        {
+            "name": "Dim Sum Dynasty",
+            "hours": "ToDo",
+            "address": "53 Franklin Ave Unit B, Ridgewood, NJ",
+            "longitude": "-74.118190",
+            "latitude": "40.981460",
+            "image": "restaurantImages/DimSumDynasty.jpg",
+            "ethnicity": "Chinese",
+            "website": "https://www.dimsumdynastyridgewoodnj.com/"
+        }
+    ]
+}
