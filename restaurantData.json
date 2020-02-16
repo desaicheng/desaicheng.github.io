@@ -29,6 +29,26 @@
             "image": "restaurantImages/LosAndes.jpg",
             "ethnicity": "Peruvian",
             "website": "http://places.singleplatform.com/los-andes-restaurant-4/menu?ref=google"
+        },
+        {
+            "name": "So Gong Dong",
+            "hours": "ToDo",
+            "address": "450 Hackensack Ave. #22, Hackensack, NJ",
+            "longitude": "-74.029970",
+            "latitude": "40.863350",
+            "image": "restaurantImages/SoGongDong.jpg",
+            "ethnicity": "Korean",
+            "website": "https://www.sgdrestaurant.com"
+        },
+        {
+            "name": "Ridge Thai",
+            "hours": "ToDo",
+            "address": "50 Chestnut St, Ridgewood, NJ",
+            "longitude": "-74.119300",
+            "latitude": "40.980770",
+            "image": "restaurantImages/RidgeThai.jpg",
+            "ethnicity": "Thai",
+            "website": "http://ridgethai.com/menu.html"
         }
     ]
 }
