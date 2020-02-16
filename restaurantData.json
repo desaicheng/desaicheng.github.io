@@ -19,6 +19,16 @@
             "image": "restaurantImages/DimSumDynasty.jpg",
             "ethnicity": "Chinese",
             "website": "https://www.dimsumdynastyridgewoodnj.com/"
+        },
+        {
+            "name": "Los Andes Restaurant",
+            "hours": "ToDo",
+            "address": "1844 Deer Park Ave, Deer Park, NY",
+            "longitude": "-73.328630",
+            "latitude": "40.759260",
+            "image": "restaurantImages/LosAndes.jpg",
+            "ethnicity": "Peruvian",
+            "website": "http://places.singleplatform.com/los-andes-restaurant-4/menu?ref=google"
         }
     ]
 }
